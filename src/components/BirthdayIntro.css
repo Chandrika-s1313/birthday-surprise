@@ -1,0 +1,58 @@
+.magic-background {
+  height: 100vh;
+  background: radial-gradient(circle at center,
+    #8a2be2 0%,   /* bright violet */
+    #4b0082 40%,  /* deep indigo */
+    #1a002b 100%  /* dark purple base */
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+  color: #ff69b4;
+}
+
+.count-circle {
+  font-size: 6em;
+  font-weight: bold;
+  color: #fff;
+  background: radial-gradient(circle, #8a2be2, #4b0082);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px #ff69b4;
+}
+
+.intro-text {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #ff69b4;
+}
+
+.heart {
+  position: absolute;
+  color: rgba(255, 182, 193, 0.3);
+  font-size: 2em;
+  animation: popFade 4s ease forwards;
+}
+
+@keyframes popFade {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5) translateY(-50px);
+    opacity: 0;
+  }
+}

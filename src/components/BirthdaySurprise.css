@@ -1,0 +1,43 @@
+.magic-background {
+  height: 100vh;
+  background-color: #1a002b; /* consistent dark purple */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+  color: #ff69b4;
+}
+
+.gif {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ff69b4;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+}
+
+button {
+  background: #ff69b4;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #ff85c1;
+}
