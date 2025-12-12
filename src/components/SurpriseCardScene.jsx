@@ -3,14 +3,14 @@ import "./SurpriseCardScene.css";
 
 const photoList = [
   "/photos/photo1.jpg",
-  "/photos/photo2.jpg",
-  "/photos/photo3.jpg",
-  "/photos/photo4.jpg",
+  "/photos/photo2.JPG",
+  "/photos/photo3.JPG",
+  "/photos/photo4.JPG",
   "/photos/photo5.jpg",
   "/photos/photo6.jpg",
-  "/photos/photo7.jpg",
-  "/photos/photo8.jpg",
-  "/photos/photo9.jpg",
+  "/photos/photo7.JPG",
+  "/photos/photo8.JPG",
+  "/photos/photo9.JPG",
   "/photos/photo10.jpg",
   "/photos/photo11.jpg",
   "/photos/photo12.jpg",
@@ -20,11 +20,11 @@ const photoList = [
   "/photos/photo16.jpg",
   "/photos/photo17.jpg",
   "/photos/photo18.jpg",
-  "/photos/photo19.jpg",
+  "/photos/photo19.JPG",
   "/photos/photo20.jpg",
-  "/photos/photo21.jpg",
-  "/photos/photo22.jpg",
-  "/photos/photo23.jpg",
+  "/photos/photo21.JPG",
+  "/photos/photo22.JPG",
+  "/photos/photo23.JPG",
   "/photos/photo24.jpg"
 ];
 
